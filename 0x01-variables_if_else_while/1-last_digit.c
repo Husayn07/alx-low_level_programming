@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - function decleated ith rwthrn
+ * main - function decread a intge
  * random - a fuction that generate random number should be used
  * Return: 0 is so the code is so continue
  */
@@ -10,16 +10,16 @@ int main(void)
 {
 	int n;
 
-	int m;
+	int X;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	m = n % 5;
-	if (m > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, m);
-	if (m == 0)
-		printf("Last digit of %d is %d and is 0\n", n, m);
-	if (m < 6 && m != 0)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
+	X = n % 10;
+	if (X > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, X);
+	if (X == 0)
+		printf("Last digit of %d is %d and is 0\n", n, X);
+	if (X < 6 && X != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, X);
 	return (0);
 }
