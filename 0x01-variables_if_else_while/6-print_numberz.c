@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - loop to geneeate base 10 numbrs
+ * return: should be zero
+ */
+
+int main(void)
+{
+	int Num;
+
+	Num = 0;
+	while
+		(Num <= 9) {
+			putchar(Num);
+			Num++;
+		}
+	putchar('\n');
+	return (0);
+}

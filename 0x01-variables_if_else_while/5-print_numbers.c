@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char A;
+	int A;
 
 	A = 0;
 	while
-			(A <= 9) {
-				printf("%d", A);
+			(A <= 9) {			printf("%d", A);
 			A++;
 		}
+	printf("\n");
 	return (0);
 }

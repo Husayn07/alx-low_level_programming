@@ -8,12 +8,14 @@ int main(void)
 {
 	char A;
 
-	for(A = 'a'; A <= 'z'; A++)
+	for(A = 97; A <= 122; A++)
 	{
-		if (A = 'e') {
-			break;
+		if (A == 101 || A == 113) {
+			continue;
 		}
-	putchar('\n');
+		putchar(A);
+		A++;
 	}
+	putchar('\n');
 	return (0);
 }
