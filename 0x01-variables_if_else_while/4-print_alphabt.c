@@ -8,9 +8,9 @@ int main(void)
 {
 	char A;
 
-	for(A = 97; A <= 122; A++)
+	for(A = 'a'; A <= 'z'; A++)
 	{
-		if (A == 101 || A == 113) {
+		if (A == 'q') {
 			continue;
 		}
 		putchar(A);
