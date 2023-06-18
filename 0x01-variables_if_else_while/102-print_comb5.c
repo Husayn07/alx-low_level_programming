@@ -30,7 +30,7 @@ int main(void)
 					putchar(' ');
 					putchar(c + 48);
 					putchar(d + 48);
-					if (b == 8)
+					if (a == 9 && b == 8 && c == 9 && d == 9)
 					{
 						continue;
 					}
