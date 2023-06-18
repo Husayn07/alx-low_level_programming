@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - loop to geneeate base 10 numbrs
- * return: should be zero
+ * Return: should be zero
  */
 
 int main(void)
