@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _print_sign - print the sign of argunent either +/-
+ * print_sign - print the sign of argunent either +/-
  * @n: parameter
  * Return: Returns 0 and prints 0 if n is zero Returns -1 and prints -
  */
 
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
