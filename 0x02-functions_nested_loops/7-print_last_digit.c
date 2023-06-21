@@ -14,14 +14,14 @@ int print_last_digit(int num)
 		int ld;
 
 		num1 = num * -1;
-//		ld = num1 % 10;
+/*		ld = num1 % 10;*/
 		_putchar((num1 % 10) + '0');
 	}
 	else
 	{
 		int ld;
 
-//		ld = num % 10;
+/*		ld = num % 10;*/
 		_putchar((num % 10) + '0');
 	}
 	return (0);
