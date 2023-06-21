@@ -19,6 +19,7 @@ int _abs(int num)
 	else
 	{
 		int abs;
+
 		abs = -1 * num;
 		return (abs);
 	}
