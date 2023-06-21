@@ -18,11 +18,8 @@ void times_table(void)
 			int c;
 
 			c = a * b;
-			if (b == 9)
-			{	continue;
-				_putchar(',');
-				_putchar(' ');
-			}
+			_putchar(',');
+			_putchar(' ');
 			if ((c / 10) == 0)
 				_putchar(' ');
 			else
