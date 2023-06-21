@@ -12,12 +12,13 @@ int _abs(int num)
 	{
 		return (num);
 	}
-	else if (n == 0)
+	else if (num == 0)
 	{
 		return (0);
 	}
 	else
 	{
+		int abs;
 		abs = -1 * num
 		return (abs);
 	}
