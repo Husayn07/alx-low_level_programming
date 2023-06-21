@@ -12,26 +12,26 @@ void print_times_table(int n)
 	{
 		int a;
 		int b;
-
+		
 		for (a = n; a <= n; a++)
 		{
 			_putchar('0');
 			for (b = 1; b <= n; b++)
 			{
 				int c;
-
+				
 				c = a * b;
 				_putchar(',');
 				_putchar(' ');
 				if ((c / 10) == 0)
-					_putchar(' ');
+				_putchar(' ');
 				else
-					_putchar((c / 10) + '0');
-					_putchar((c % 10) + '0');
+				_putchar((c / 10) + '0');
+				_putchar((c % 10) + '0');
 			}
 			_putchar('\n');
 		}
 	}
 	else
-		return (void);
+	return (void);
 }
