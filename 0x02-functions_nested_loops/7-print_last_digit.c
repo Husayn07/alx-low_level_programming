@@ -8,13 +8,21 @@
 
 int print_last_digit(int num)
 {
-	int ld;
-
-	ld = num % 10;
 	if (num < 0)
 	{
-		ld *= -1;
+		int num1;
+		int ld;
+
+		num1 = mum * -1;
+		ld = num1 % 10;
+		_putchar(ld +'0');
 	}
+	else
+	{
+		int ld;
+		
+		ld = num % 10;
 		_putchar(ld + '0');
+	}
 	return (0);
 }
