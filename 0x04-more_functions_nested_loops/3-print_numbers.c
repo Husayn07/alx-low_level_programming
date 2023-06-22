@@ -1,15 +1,16 @@
 #include "main.h"
 /**
  * print_numbers - generate a loop for 0 to 9
- * @A: parameter
  * Return: void
  */
 
-void print_numbers(int A)
+void print_numbers(void)
 {
-	for (A = 48; A <= 57; A++)
+	int A;
+
+	for (A = 0; A <= 9; A++)
 	{
-		_putchar(A);
+		_putchar(A + '0');
 	}
 	_putchar('\n');
 }
