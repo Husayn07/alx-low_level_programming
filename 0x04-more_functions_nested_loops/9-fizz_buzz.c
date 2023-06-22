@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - to print fizz buzz 
+ * main - to print fizz buzz
  * Return: 0 good
  */
 
 int main(void)
 {
 	int A;
+
 	for (A = 0; A <= 100; A++)
 	{
 		if ((A % 100 == 0) && (A % 5 == 0))
