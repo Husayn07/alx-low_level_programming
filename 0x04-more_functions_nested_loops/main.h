@@ -12,7 +12,4 @@ void more_numbers(void);
 void print_line(int n);
 
 
-_triangle(int size);
-
-
 #endif
