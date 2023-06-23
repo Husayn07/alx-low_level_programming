@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - a fuction that print a strsight line
+ * @n: parameter
  * Return: void
  */
 
@@ -15,6 +16,6 @@ void print_line(int n)
 			_putchar('_');
 		}
 	}
-	else 
-		_putchar('\n');
+	else
+	_putchar('\n');
 }
