@@ -2,6 +2,7 @@
 
 /**
  * void reset - function to change the vale of it pointer
+ * @: parameter
  *Return: void
  */
 
