@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * void reset - function to change the vale of it pointer
- * @: parameter
+ * reset_to_98 - function to change the vale of it pointer
+ * @n: parameter
  *Return: void
  */
 
