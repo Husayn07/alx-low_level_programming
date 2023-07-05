@@ -15,7 +15,6 @@ void _print_rev_recursion(char *s)
 		i++;
 		_print_rev_recursion(s + 1);
 	}
-	i = i - 1;
 	s = s + i;
 	if (*s)
 	{
@@ -23,5 +22,7 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s - 1);
 	}
 	else
+	{
 		_putchar('\n');
+	}
 }
