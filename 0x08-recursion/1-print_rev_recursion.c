@@ -8,9 +8,20 @@
 
 void _print_rev_recursion(char *s)
 {
+	int i = 0;
+
 	if (*s)
 	{
-		_puts_recursion(s + 1);
-		_putchar(*s);
+		i++;
+		_print_rev_recursion(s + 1);
 	}
+	i = i - 1;
+	s = s + i;
+	if (*s)
+	{
+		_putchar(*s);
+		_print_rev_recursion(s - 1);
+	}
+	else
+		_putchar('\n');
 }
