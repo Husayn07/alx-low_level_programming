@@ -2,6 +2,7 @@
 
 /**
  * _puts_recursion - a function that print string just like puts
+ * @s: parameter for adreess
  * Return: void success
  */
 
