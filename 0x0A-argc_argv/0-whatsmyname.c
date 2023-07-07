@@ -3,7 +3,9 @@
 
 /**
  * main - my main fuction
- * return: void
+ * @argc: parameter
+ * @argv: parameter
+ * Return: argc sucess
  */
 
 int main(int argc, char *argv[])
