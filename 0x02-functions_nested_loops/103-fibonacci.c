@@ -25,7 +25,10 @@ void _fibona(int x, int y)
 	for (a = 1; a <= 10 ; a++)
 	{
 		b = x + y;
-		printf("%d, ", b);
+		if (a < 10)
+			printf("%d, ", b);
+		else
+			printf("%d\n", b);
 		x = y;
 		y = b;
 	}
