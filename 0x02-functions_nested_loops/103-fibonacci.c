@@ -13,7 +13,7 @@ void _fibona(int x, int y);
 
 int main(void)
 {
-	_fibona(1, 2);
+	_fibona(0, 1);
 	return (0);
 }
 
@@ -22,12 +22,9 @@ void _fibona(int x, int y)
 	int a;
 	int b;
 
-	for (a = 0; a < 30 ; a++)
+	for (a = 1; a <= 10 ; a++)
 	{
 		b = x + y;
-		a = 0;
-		a++;
-		if (a == 30)
 		printf("%d, ", b);
 		x = y;
 		y = b;
