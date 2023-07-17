@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- *main - Function that prints the name of the files it was compile from
- *Return: Always success (0)
+ * main - prints the name of the file
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
