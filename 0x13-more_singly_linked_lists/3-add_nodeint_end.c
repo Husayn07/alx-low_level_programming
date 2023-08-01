@@ -27,7 +27,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		while (template->next)
 		{
-			template = temp->next;
+			template = template->next;
 		}
 		template->next = ptr;
 	}
