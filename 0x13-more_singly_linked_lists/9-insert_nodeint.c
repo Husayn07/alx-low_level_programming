@@ -1,30 +1,26 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - inserts a new node at nth podition
+ * insert_nodeint_at_index - insert a node
  * @head: head
- * @idx: index for new node position
+ * @idx: index
  * @n: parameter value
- * Return: address or NULL
+ * Return: return pointer
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	unsigned int i;
-	listint_t *ptr;
-	listint_t *ptr2
+	listint_t *current, *temp, *ptr;
+	unsigned int i = 0, l = 0;
 
-	ptr2 = *head;
-
-	if (idx != 0)
+	temp = *head;
+	while (temp != NULL)
 	{
-		for (i = 0; i < idx - 1 && ptr2 != NULL; i++)
-		{
-			ptr2 = ptr2->next;
-		}
+		l++;
+		temp = tmp->next;
 	}
 
-	if (h == NULL && idx != 0)
+	if (idx > l)
 		return (NULL);
 
 	ptr = malloc(sizeof(listint_t));
@@ -37,12 +33,15 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		ptr->next = *head;
 		*head = ptr;
-	}
-	else
-	{
-		ptr->next = ptr2->next;
-		ptr2->next = ptr;
+		return (ptr);
 	}
 
+	current = *head;
+	for (i = 0; i < idx - 1; i++)
+	{
+		current = current->next;
+	}
+	ptr->next = current->next;
+	current->next = ptr;
 	return (ptr);
 }
